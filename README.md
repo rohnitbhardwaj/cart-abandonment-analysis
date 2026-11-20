@@ -13,7 +13,7 @@ Maven Fuzzy Factory e-commerce data (March 2012 to March 2015): 472,871 website 
 
 ## Methodology
 
-1. **Data preparation (SQL Server):** Created the database and tables with scripts, loaded the CSVs with `BULK INSERT`, and validated row counts and joins.
+1. **Data preparation (SQL):** Created the database and tables with scripts, loaded the CSVs with `BULK INSERT`, and validated row counts and joins.
 2. **Transformation (SQL):** Built one row per session with funnel flags, landing page and last product viewed before the cart, using CTEs, `ROW_NUMBER()` and `OUTER APPLY`. Cart session = viewed `/cart`; abandoned = never reached the order confirmation page.
 3. **Analysis (Python):** Compared abandonment rates by device, checkout step, hour, weekday, visitor type, traffic source, product and landing page, checking segments within device where traffic mix could mislead, and sized three recovery scenarios.
 4. **Visualization (Power BI):** One-page dashboard with DAX measures and device and date slicers: who abandons, where, and what recovery is worth.

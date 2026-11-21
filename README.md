@@ -27,6 +27,12 @@ Maven Fuzzy Factory e-commerce data (March 2012 to March 2015): 472,871 website 
 * **No meaningful difference:** Hour, weekday, new vs returning visitors, traffic source and product all sit within about 64% to 68%.
 * **Recovery potential:** Bringing mobile to the desktop rate is worth about 2,800 carts (about $169K), and recovering 10% of billing-stage abandoners about 2,000 carts (about $118K).
 
+## Business Impact
+
+* About $3.76M of revenue is at stake. Bringing mobile checkout to the desktop abandonment rate would recover an estimated 2,800 carts (about $169K).
+* Recovering just 10% of billing-stage abandoners is worth an estimated $118K.
+* Timing, visitor type, traffic source and product show no meaningful difference, so effort is better spent on checkout.
+
 ## Recommendations
 
 * Review the mobile checkout, especially the shipping and billing steps.
